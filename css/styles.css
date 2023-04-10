@@ -1,0 +1,180 @@
+body {
+    font-family: 'Montserrat';
+}
+
+
+#title {
+    background-color: #ff4c68
+}
+
+h1 {
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+
+}
+
+.container-fluid {
+    padding: 3% 15%
+}
+
+/* nav bar */
+
+.navbar {
+    padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2rem;
+
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+}
+
+/* buttons */
+.dw {
+    margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.ttl {
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+/* feature */
+#features {
+    padding: 7% 15%;
+    background-color: white;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+
+}
+
+h3 {
+    font-family: "Montserrat";
+}
+
+p {
+    font-family: "Montserrat-SemiBold";
+    font-size: 1rem;
+    color: #8f8f8f;
+}
+
+.icon {
+    padding-bottom: 10%;
+}
+
+.feature-box:hover {
+    color: #E0115F;
+}
+
+/* testimonial */
+
+#testimonials {
+
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+
+}
+
+#press {
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.company {
+    width: 15%;
+    margin: 20px 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-coloumn {
+    padding: 3% 2%;
+}
+
+@media (max-width:1028px) {
+    .ttl {
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+ /* last section */
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    font-family: "Montserrat";
+    padding: 50px;
+    
+}
+
+
+
+.H3 {
+    font-family: "Montserrat";
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: white;
+     margin: 0% 19%;
+
+}
+
+.but {
+    margin: 5% 3% 5% 0;
+}
+
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.ft{
+    margin:  2% 1%;
+}
+
+.ft:hover{
+    color: #ff4c68;
+}
